@@ -80,20 +80,3 @@ input[type="email"]:invalid {
 	background: #f00;
 }
 	/* causes a visual alert in browsers that do client-side checking of HTML5 email field – this may already be the default in some browsers. */
-	
-.right { 
-	float: right;
-	margin-left: 2rem;
-	clear: right;
-}
-.left { 
-	float: left;
-	margin-right: 2rem;
-	clear: left;
-}
-	/* allows a quick shortcut for floating elements left and right while avoiding the “float quirk” problem */
-	
-sub, sup { 
-	line-height: 0;
-}
-    /* sets superscript and subscript text so that it doesn't throw off leading for elements in which they are included */
